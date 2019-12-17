@@ -1,0 +1,14 @@
+<div class="w3-container topbar">
+  <h2>Topbar Component (Select option)</h2>
+  <mat-form-field>
+    
+    <mat-select [(value)]="chartName" (selectionChange)="sendData(chartName)">
+      <mat-option>None</mat-option>
+      <mat-option value="BarChart">BarChart</mat-option>
+      <mat-option value="LineChart">LineChart</mat-option>
+      <mat-option value="PieChart">PieChart</mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+ 
+</div>

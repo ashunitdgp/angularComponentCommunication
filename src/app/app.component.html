@@ -1,0 +1,10 @@
+
+<app-sidebar></app-sidebar>
+<div style="margin-left:25%">
+<app-navbar></app-navbar>
+<app-topbar></app-topbar>
+<app-line *ngIf="chartName=='LineChart'"></app-line>
+<app-pie *ngIf="chartName=='PieChart'"></app-pie>
+<app-bar *ngIf="chartName=='BarChart'"></app-bar>
+</div>
+<router-outlet></router-outlet>

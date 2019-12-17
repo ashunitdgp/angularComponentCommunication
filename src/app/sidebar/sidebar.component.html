@@ -1,0 +1,7 @@
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+  <h2 class="w3-bar-item">Sidebar Component</h2>
+  <a href="#" class="w3-bar-item w3-button" [ngClass]="{'active': chartName=='PieChart'}"  #sidenav1 (click)="sendData(sidenav1)">PieChart</a>
+  <a href="#" class="w3-bar-item w3-button" [ngClass]="{'active': chartName=='LineChart'}" #sidenav2 (click)="sendData(sidenav2)">LineChart</a>
+  <a href="#" class="w3-bar-item w3-button" [ngClass]="{'active': chartName=='BarChart'}" #sidenav3 (click)="sendData(sidenav3)">BarChart</a>
+</div>
+
